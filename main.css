@@ -1,0 +1,201 @@
+html {
+    background-color: rgb(27,27,27);
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    font-family: 'Roboto Slab', serif;
+    margin: 0px;
+    padding: 0px;
+    font-weight: 400;
+    font-size: 14px;
+}
+div {
+    padding: 0px;
+    margin: 0px;
+}
+@font-face {
+    font-family: 'heorotregular';
+    src: url('./fonts/heorot/heorot-4rlk-webfont.woff2') format('woff2'),
+         url('./fonts/heorot/heorot-4rlk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+#main {
+    width: 100%;
+    height:100vh;
+    background-image: url("./img/sword.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+#main-left {
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,.74);
+    position:absolute;
+}
+#main-right {
+    width:400px;
+    height:100vh;
+    background-color: rgb(128,0,0);
+    position:absolute;
+    right: 0px;
+    float:right;
+}
+#main-sword {
+    background-image: url(img/vertical-sword2_white.png);
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 300px;
+    height: 600px;
+    position:absolute;
+    top:0px;
+    z-index: 100;
+    right: 250px;
+}
+#descriptor-panel {
+    width: 45%;
+    height: 100vh;
+    position:absolute;
+    top:0px;
+    left:0px;
+}
+#descriptor-thumbnail, #descriptor-header, #descriptor-body {
+    width: 96%;
+    margin-left: 4%;
+}
+#descriptor-thumbnail {
+    background-image: url(img/sword.jpg);
+    background-repeat:no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    background-position: center center;
+    height: 40vh;
+}
+#descriptor-header {
+    height: 10vh;
+    font-size: 28pt;
+    font-family: 'heorotregular';
+    text-align: 
+}
+#descriptor-body {
+    height: 50vh;
+}
+#main-menu {
+    width: 300px;
+    height: auto;
+    position:absolute;
+    top:10px;
+    right: 10px;
+    text-align: right;
+}
+#main-menu ul {
+    list-style: none;
+    margin-bottom:30px;
+}
+#main-menu li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+    margin-right: 10px;
+    color: #e9afaf;
+}
+#header {
+    font-family: 'heorotregular';
+    font-size: 32pt;
+    font-weight: 500;
+}
+.menuitem-header {
+    font-family: 'heorotregular';
+    font-size: 22pt;
+    font-weight: 400;
+    color: #fff;
+}
+/*div {
+    margin:0;
+    padding:0;
+}
+@font-face {
+    font-family: 'heorotregular';
+    src: url('./fonts/heorot/heorot-4rlk-webfont.woff2') format('woff2'),
+         url('./fonts/heorot/heorot-4rlk-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+a {
+    color: #fff;
+    text-decoration: none;
+}
+a:hover{
+    color: #ddd;
+}
+.header {
+    font-weight: 500;
+    font-size: 28pt;
+    font-family: 'heorotregular';
+}
+.menu-header, .descriptor-header, #descriptor-header {
+    font-weight: 500;
+    font-size: 26px;
+    font-family: 'heorotregular';
+}
+.menu-item {
+    color: #e9afaf;
+
+}
+ul {
+    list-style: none;
+}
+#main {
+    width: 100vw;
+    height:100vh;
+    background-image: url("./img/sword.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+#main-sword {
+    width: 100vw;
+    height: 50vh;
+    position: absolute;
+    top:0px;
+    left: 0px;
+    background-image:url("./img/vertical-sword2_white.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center top;
+}
+
+#main-right {
+    background-color: #800;
+    width: 50vw;
+    height: 100vh;
+    display:block;
+    float:right;
+    text-align: right;
+}
+#descriptor-panel {
+    width: 50vw;
+    height:100vh;
+    background-color: rgba(0,0,0,.65);
+}
+#thumbnail {
+    width:100%;
+    height: 40vh;
+    padding:20px;
+    background-image: url(img/sword.jpg);
+    background-repeat:no-repeat;
+    background-origin: content-box;
+    background-size: contain;
+    background-position: bottom center;
+}
+#descriptor-header {
+    width:100%;
+    padding:5px;
+    
+}
+#descriptor-body {
+    width:100%;
+    color: #fff;
+    padding: 5px;
+}*/
