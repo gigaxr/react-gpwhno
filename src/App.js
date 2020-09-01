@@ -1,5 +1,4 @@
 import React from "react";
-import "./fonts";
 import "./main.css";
 
 export default function App() {

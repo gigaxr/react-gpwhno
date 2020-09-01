@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@400;500&display=swap');
 html {
     background-color: rgb(27,27,27);
     -webkit-font-smoothing: antialiased;
@@ -12,13 +13,7 @@ div {
     padding: 0px;
     margin: 0px;
 }
-@font-face {
-    font-family: 'heorotregular';
-    src: url('https://github.com/gigaxr/react-gpwhno/blob/master/fonts/heorot/heorot-4rlk-webfont.woff2?raw=true') format('woff2'),
-         url('https://github.com/gigaxr/react-gpwhno/blob/master/fonts/heorot/heorot-4rlk-webfont.woff?raw=true') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
+
 #main {
     width: 100%;
     height:100vh;
