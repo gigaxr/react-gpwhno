@@ -14,8 +14,8 @@ div {
 }
 @font-face {
     font-family: 'heorotregular';
-    src: url('./fonts/heorot/heorot-4rlk-webfont.woff2') format('woff2'),
-         url('./fonts/heorot/heorot-4rlk-webfont.woff') format('woff');
+    src: url('https://github.com/gigaxr/react-gpwhno/blob/master/fonts/heorot/heorot-4rlk-webfont.woff2?raw=true') format('woff2'),
+         url('https://github.com/gigaxr/react-gpwhno/blob/master/fonts/heorot/heorot-4rlk-webfont.woff?raw=true') format('woff');
     font-weight: normal;
     font-style: normal;
 }
